@@ -1,0 +1,70 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  background-color: #f4f4f4; 
+  color: #333;
+  padding: 40px;
+}
+
+header {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* container for the form */
+.outline {
+  max-width: 400px;
+  margin: 0 auto; 
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  border: 1px solid #ddd; 
+}
+
+.form {
+  text-align: left;
+}
+
+/* Basic styling for labels */
+label {
+    display: block;     /* display as block element */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Basic styling for all input fields */
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* A simple highlight for the active input field */
+input:focus {
+  outline: none;
+  border-color: #777;
+}
+
+/* Styling for buttons */
+button {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #e9e9e9; 
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #dcdcdc;
+}
+
+.error {
+    color: #ff0000;       
+    font-size: 0.8em;
+    display: block;
+    margin-bottom: 10px;
+}

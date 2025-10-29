@@ -1,0 +1,7 @@
+.container{
+    position: relative;
+    display: flex;
+    border: 4px solid black;
+    background-color: aquamarine;
+
+}

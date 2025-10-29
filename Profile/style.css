@@ -1,0 +1,84 @@
+/* General Body Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    border-bottom: 1px solid #cec6c6;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+    color: #2c3e50;
+}
+
+header p {
+    margin: 5px 0 0;
+    color: #7f8c8d;
+    font-size: 20px; 
+}
+
+/* All Section */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 30px; 
+    color: #34495e;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Experience & Education Styles */
+.job, .edu-item {
+    margin-bottom: 20px;
+}
+
+.tech-list li {
+    list-style: none;
+    color: #34495e;
+    font-size: 15px; 
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #cec6c6;
+    color: #000000;
+}
+
+footer a {
+    color: #3498db;
+}
+

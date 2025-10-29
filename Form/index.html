@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Static Form</title>
+  </head>
+
+  <header>
+    <div><b>Student Registration Form</b></div>
+  </header>
+  <!-- Name
+     User name
+     UCID
+     Phone No.
+     Email
+     password 
+     confirm password 
+     Submit -->
+  <body>
+    <div class="outline">
+      <div class="form">
+        <!-- onsubmit attribute for validation function call -->
+        <form name="registrationForm" onsubmit="return validateForm()" action="/action.php" method="post">
+            <label for="fname">Full Name: </label>
+            <input type="text" id="fullName" placeholder="Enter your full name">
+            <span class="error" id="fullNameError"></span>
+
+            <label for="ucid">UCID: </label>
+            <input type="text" id="ucid" placeholder="Enter your UCID">
+            <span class="error" id="ucidError"></span>
+
+            <label for="mobileNo">Mobile No: </label>
+            <input type="text" id="mobileNo" placeholder="Enter your Mobile No.">
+            <span class="error" id="mobileNoError"></span>
+
+            <label for="email">E-mail: </label>
+            <input type="text" id="email" placeholder="Enter your E-mail">
+            <span class="error" id="emailError"></span>
+
+            <label for="userName">User Name: </label>
+            <input type="text" id="userName" placeholder="Enter your User name">
+            <span class="error" id="userNameError"></span>
+
+            <label for="password">Password: </label>
+            <input type="password" id="password" >
+            <span class="error" id="passwordError"></span>
+
+            <label for="confirmPass">Confirm Password: </label>
+            <input type="password" id="confirmPassword">
+            <span class="error" id="confirmPasswordError"></span>
+
+            <button type="submit"> Submit </button>
+            <button type="reset">Reset</button>
+
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
