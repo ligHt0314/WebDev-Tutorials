@@ -1,13 +1,22 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
     <nav>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
+      <div className="nav-inner">
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
+      </div>
     </nav>
   );
 }
