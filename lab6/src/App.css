@@ -1,0 +1,16 @@
+.app-container {
+  width: 100%;
+}
+
+/* Main Content Area */
+.main-content {
+  padding: 2rem;
+  min-height: 70vh;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1rem;
+  }
+}

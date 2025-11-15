@@ -1,0 +1,9 @@
+/* Footer */
+.app-footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--light-color);
+  color: var(--secondary-color);
+  margin-top: 2rem;
+  border-top: 1px solid var(--border-color);
+}

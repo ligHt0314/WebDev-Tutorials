@@ -1,0 +1,57 @@
+.filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: var(--light-color);
+  border-radius: var(--border-radius);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* New style for the price filter */
+.filter-group-price {
+  flex: 1; /* Make it fill remaining space */
+  min-width: 200px; /* Give it a reasonable minimum size */
+}
+
+.filter-group label {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+/* Old rule:
+.filter-group select,
+.filter-group input {
+  padding: 0.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+}
+*/
+
+/* New separated rules */
+.filter-group select {
+  padding: 0.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+}
+
+.filter-group input[type="range"] {
+  width: 100%; /* Make slider full width */
+  margin-top: 8px; /* Add some space from label */
+}
+
+
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+  }
+}
